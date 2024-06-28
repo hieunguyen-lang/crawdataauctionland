@@ -14,13 +14,7 @@ from models.landauctions import LandAuctions
 from models.districts import Districts
 from models.users import Users
 from models.LandAuctionCategories import LandAuctionCategories
-
 from db import session  # Assuming you have a session object from db.py
-
-
-
-
-
 recordnumber = 327850
 def getrecordnumber():
     while True:
